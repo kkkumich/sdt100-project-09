@@ -1,0 +1,62 @@
+===== part1_objects.Main.txt =====
+INPUT (demo data):
+
+OUTPUT:
+EmptyExample
+Public method call
+private helper
+Constructor was called
+Demo 5 3.5 true
+Private value via method: 7
+Example 3 12.5 true
+Constructor argument
+
+
+===== part2_hobby.Main.txt =====
+INPUT (demo data):
+
+OUTPUT:
+The Hobbit
+Author: J. R. R. Tolkien
+Year: 1937
+Pages: 310
+Estimated reading hours (30 pages/hour): 10.333333333333334
+Notes: Fantasy
+Animal Farm
+Author: George Orwell
+Year: 1945
+Pages: 120
+Estimated reading hours (30 pages/hour): 4.0
+Notes: 
+First title: The Hobbit, author: J. R. R. Tolkien
+
+
+===== part3_static.Main.txt =====
+INPUT (demo data):
+
+OUTPUT:
+5 = 5
+Count=5
+Count=5
+Count=5
+
+
+===== part4_pizza.Main.txt =====
+INPUT (demo data):
+A
+30
+B
+10
+C
+20
+D
+50
+E
+40
+
+OUTPUT:
+Pizza name 1: Price: Pizza name 2: Price: Pizza name 3: Price: Pizza name 4: Price: Pizza name 5: Price: B: 10
+C: 20
+A: 30
+E: 40
+D: 50

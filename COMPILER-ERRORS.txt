@@ -1,0 +1,17 @@
+PrivateFieldError.java.diagnostic.txt
+C:\Users\user\Documents\Codex\2026-11-04\yfg\outputs\SDT100-Past-Assignments\project9\error_examples\PrivateFieldError.java:2: error: number has private access in SecretField
+class PrivateFieldError { public static void main(String[] args){System.out.println(new SecretField().number);} }
+                                                                                                     ^
+1 error
+
+PrivateMethodError.java.diagnostic.txt
+C:\Users\user\Documents\Codex\2026-11-04\yfg\outputs\SDT100-Past-Assignments\project9\error_examples\PrivateMethodError.java:2: error: secret() has private access in SecretMethod
+class PrivateMethodError { public static void main(String[] args){new SecretMethod().secret();} }
+                                                                                    ^
+1 error
+
+StaticContextError.java.diagnostic.txt
+C:\Users\user\Documents\Codex\2026-11-04\yfg\outputs\SDT100-Past-Assignments\project9\error_examples\StaticContextError.java:1: error: non-static method instanceMethod() cannot be referenced from a static context
+class StaticContextError { void instanceMethod(){} static void wrong(){instanceMethod();} }
+                                                                       ^
+1 error
